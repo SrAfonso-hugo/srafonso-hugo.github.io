@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Portfolio - Paulo Emílio Oliveira" />
+  <meta property="og:description" content="Exploração e projetos em Análise e Ciência de Dados, utilizando Python, SQL, Power BI e Excel. Encontre artigos informativos e insights práticos que ajudam a transformar dados em conhecimento." />
+  <meta property="og:image" content="https://github.com/paulo-emilio/paulo-emilio.github.io/blob/main/img/wallpaper.png" />
+  <meta property="og:url" content="https://paulo-emilio.github.io" />
+
+  <title>Portfolio - Paulo Emílio Oliveira</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/profile.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.png" alt="Paulo Emílio Nery Assis Oliveira" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Paulo Emílio Nery Assis Oliveira">Paulo Emílio Oliveira</h1>
+
+          <p class="title">Analista de Dados</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <!-- LISTA DE CONTATOS
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">E-mail</p>
+
+              <a href="mailto:pauloemilio.ds@gmail.com" class="contact-link">pauloemilio.ds@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+          
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>              
+              <a href="https://wa.me/5531991215673" class="contact-link">WhatsApp</a>
+            </div>
+          
+          </li>        
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Minas Gerais, Contagem, BRA</address>
+            </div>
+
+          </li>
+
+        </ul> 
+
+        <div class="separator"></div> 
+        
+        -->
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/paulo-emilio/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/5537999481513" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/pauloemilio__/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/paulo-emilio" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="mailto:pauloemilio.ds@gmail.com" class="social-link">
+              <ion-icon name="mail"></ion-icon> <!-- Ícone do Email -->
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Portfólio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Currículo</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="portfólio">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Com cinco anos de experiência no mercado de trabalho, sendo três na área da tecnologia,
+            estou atualmente em busca de uma oportunidade na área de dados. Sou graduado em Sistemas de Informação
+            e concluí uma pós-graduação em Data Science. Além disso, desenvolvi minhas habilidades em
+            análise de dados através de diversos cursos e autoaprendizagem. Sou proficiente em
+            Python, SQL, Power BI e Excel, e tenho trabalhado em projetos de análise de dados onde transformei
+            dados brutos em insights valiosos. Estou entusiasmado para aplicar essas habilidades em um ambiente
+            profissional e contribuir para a solução de desafios complexos e a geração de insights estratégicos.
+          </p>
+          <br>
+
+
+          <!--
+          ------------------------PROJETOS---------------------------
+        -->
+
+          <section class="service">
+
+            <h3 class="h3 service-title">Projetos - Análise de Dados</h3>
+
+            <ul class="service-list">
+
+              <!-- PROJETOS -->
+
+              <!--PEOPLE ANALYTICS
+              <li class="service-item">
+                <a href="https://github.com/paulo-emilio/Power-BI-projects/tree/main/People-Analytics" target="_blank"
+                  rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+
+                  <div class="service-icon-box">
+                    <img src="./assets/images/powerbi.png" alt="design icon" width="40">
+                    <br>
+                  </div>
+
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">People Analytics: gestão de recursos humanos</h4>
+
+                    <p class="service-item-text">
+                      Este projeto de People Analytics tem como objetivo analisar os dados de admissões, movimentações
+                      internas, desligamentos voluntários ou demitidos em uma empresa, com o objetivo de identificar
+                      padrões e
+                      fornecer insights que possam melhorar a gestão de recursos humanos.
+                      <a href="https://app.powerbi.com/view?r=eyJrIjoiNTI1ZmJjYzItZDM0Ny00NzJiLWFlZmItYzA1ZmZiZjRkMWQ4IiwidCI6IjEyMjExZGI2LWZiMWEtNDUwNi1iYjc2LWU5NWI3YTE0NTNiYyJ9"
+                        target="_blank">
+                        <img src="./img/peopleanalytics.gif" alt="design icon" width="280">
+                      </a>
+                    </p>
+                </a>
+    </div>
+
+    </li>
+
+              -->
+
+    
+    <!--SUPER PETS-->
+    <li class="service-item">
+      <a href="https://github.com/paulo-emilio/Power-BI-projects/tree/main/Super-Pets" target="_blank"
+        rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+
+        <div class="service-icon-box">
+          <img src="./assets/images/powerbi.png" alt="design icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Super Pets: vendas no Petshop</h4>
+
+          <p class="service-item-text">
+            Dashboard que se atualiza automaticamente com base nos dados de vendas de uma loja de produtos para animais
+            de estimação.
+            Proporcionando insights para otimização de estoque, estratégias de marketing e tomada de decisões
+            comerciais.
+            <br>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiOTYwNThlM2ItNjc0NS00ZGI1LTljZGEtZmVlZDU1YmNkYzFiIiwidCI6IjEyMjExZGI2LWZiMWEtNDUwNi1iYjc2LWU5NWI3YTE0NTNiYyJ9"
+              target="_blank">
+              <img src="./img/superpets.gif" alt="design icon" width="280">
+            </a>
+          </p>
+      </a>
+      </div>
+
+    </li>
+
+
+              
+    <!--HOUSE PRICING-->
+    <li class="service-item">
+      <a href="https://github.com/paulo-emilio/House-Pricing" target="_blank" rel="noopener noreferrer"
+        style="text-decoration: none; color: inherit;">
+
+        <div class="service-icon-box">
+          <img src="./assets/images/python.png" alt="design icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">House Pricing: previsão de preços de casas</h4>
+
+          <p class="service-item-text">
+            Este projeto utiliza a técnica de Regressão Linear para prever os preços de casas com base em diversas
+            características.
+            Além disso, um simulador interativo foi desenvolvido para permitir que os usuários insiram as
+            características das casas e obtenham previsões de preços.
+            <a href="https://github.com/paulo-emilio/House-Pricing" target="_blank">
+              <img src="./img/simulador.gif" alt="design icon" width="280">
+            </a>
+          </p>
+      </a>
+      </div>
+
+    </li>
+
+    <!--NOTEBOOKS-->
+    <li class="service-item">
+      <a href="https://github.com/paulo-emilio/SQL-projects/tree/main/Vendas-de-notebooks" target="_blank"
+        rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+
+        <div class="service-icon-box">
+          <img src="/assets/images/databricks.png" alt="design icon" width="40">
+        </div>
+        <br>
+        <div class="service-icon-box">
+          <img src="./assets/images/sql.png" alt="design icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Notebooks: análise de preços</h4>
+
+          <p class="service-item-text">
+            Este projeto tem como objetivo analisar os fatores que afetam os preços dos computadores portáteis
+            utilizando a plataforma
+            Databricks e SQL. A análise inclui aspectos como marca, tipo de memória, processador, presença de
+            touchscreen, entre outros.
+            <a href="https://github.com/paulo-emilio/SQL-projects/tree/main/Vendas-de-notebooks" target="_blank">
+              <img src="./img/vendasnotebooks.gif" alt="design icon" width="280">
+            </a>
+          </p>
+      </a>
+      </div>
+
+    </li>
+
+    <!--CONTROLE DE ROTAS-->
+    <li class="service-item">
+      <a href="https://github.com/paulo-emilio/Excel-Sheets-projects/tree/main/Controle_de_Rotas-Excel" target="_blank"
+        rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+
+        <div class="service-icon-box">
+          <img src="assets/images/excel.png" alt="design icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Controle de Rotas</h4>
+
+          <p class="service-item-text">
+            Este projeto em Excel facilita o controle de entregas para empresas de transporte, oferecendo análises
+            detalhadas de dados logísticos e recursos para uma gestão eficiente. Utiliza tabelas dinâmicas e
+            gráficos para otimizar rotas, horários e desempenho dos motoristas, melhorando a eficiência operacional.
+            <br>
+            <a href="https://1drv.ms/x/s!AiFjwGBG_LP41UI6SX_aRP8mGLXX?e=iC76bP" target="_blank">
+              <img src="./img/controlederotas.gif" alt="design icon" width="280">
+            </a>
+
+          </p>
+      </a>
+      </div>
+
+    </li>
+
+        <!--E-COMMERCE-->
+    <li class="service-item">
+      <a href="https://github.com/paulo-emilio/Power-BI-projects/tree/main/E-commerce" target="_blank"
+        rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+
+        <div class="service-icon-box">
+          <img src="./assets/images/powerbi.png" alt="design icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">E-commerce: compras feitas no Brasil</h4>
+
+          <p class="service-item-text">
+            Análise dos dados de compras feitas em e-commerces no Brasil, utilizando os dados fornecidos pela plataforma
+            Olist.
+            O objetivo é explorar e entender padrões de compra, métodos de pagamento preferidos,
+            valores dos produtos vendidos e o volume de pedidos registrados.
+            <br>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiYzFhNGE4MjUtZTI0OS00Nzc2LWJiYTUtOTAzMWUzMjNhY2MwIiwidCI6IjEyMjExZGI2LWZiMWEtNDUwNi1iYjc2LWU5NWI3YTE0NTNiYyJ9"
+              target="_blank">
+              <img src="./img/olist.gif" alt="design icon" width="280">
+            </a>
+          </p>
+      </a>
+      </div>
+
+    </li>
+
+              
+    <!--LICHESS-->
+    <li class="service-item">
+      <a href="https://github.com/paulo-emilio/Lichess-Matches" target="_blank" rel="noopener noreferrer"
+        style="text-decoration: none; color: inherit;">
+
+        <div class="service-icon-box">
+          <img src="./assets/images/python.png" alt="design icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Lichess Matches: análise de partidas de Xadrez</h4>
+
+          <p class="service-item-text">
+            Limpeza e análise de dados de partidas de xadrez coletadas do site Lichess.org. O objetivo é explorar as
+            características
+            das partidas e identificar os fatores chave que influenciam os resultados dos jogos, com foco em entender as
+            relações
+            entre as classificações dos jogadores, o tempo de jogo e as decisões estratégicas.
+            <a href="https://github.com/paulo-emilio/Lichess-Matches" target="_blank">
+              <img src="./img/lichess.jpg" alt="design icon" width="280">
+            </a>
+          </p>
+      </a>
+      </div>
+
+    </li>
+
+    <!--CLUBE DO LIVRO-->
+    <li class="service-item">
+      <a href="https://github.com/paulo-emilio/Power-BI-projects/tree/main/Clube-do-Livro" target="_blank"
+        rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+
+        <div class="service-icon-box">
+          <img src="./assets/images/powerbi.png" alt="design icon" width="40">
+        </div>
+
+        <div class="service-content-box">
+          <h4 class="h4 service-item-title">Clube do Livro: assinaturas</h4>
+
+          <p class="service-item-text">
+            Dashboard interativo no Power BI para analisar as assinaturas realizadas no site "Clube do Livro".
+            O objetivo principal é fornecer uma visão abrangente e detalhada sobre o comportamento dos assinantes,
+            a performance de vendas e as características demográficas dos clientes.
+            <br>
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiNWQ4NzBlNGQtNmFmZC00Y2FkLThlOWQtZjc2Y2YwNTM1MDc2IiwidCI6IjEyMjExZGI2LWZiMWEtNDUwNi1iYjc2LWU5NWI3YTE0NTNiYyJ9"
+              target="_blank">
+              <img src="./img/clubedolivro.gif" alt="design icon" width="280">
+            </a>
+          </p>
+      </a>
+      </div>
+
+    </li>
+
+
+
+    <!--FIM PROJETOS-->
+
+
+    </ul>
+
+    </section>
+
+
+    <!--
+          - ARTIGOS
+        -->
+
+    <section class="service">
+
+      <h3 class="h3 service-title">Artigos</h3>
+
+      <ul class="service-list">
+
+        <!--MEDIUM-->
+        <li class="service-item">
+          <a href="https://medium.com/@pauloemilio.sistemas/como-começar-na-análise-de-dados-ferramentas-e-técnicas-essenciais-abb3a0fd5cb4" target="_blank"
+            rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/medium.png" alt="design icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Como começar na Análise de Dados: Ferramentas e Técnicas Essenciais</h4>
+
+              <p class="service-item-text">
+                Este artigo explora as principais ferramentas e técnicas indispensáveis para quem está começando na análise de dados. 
+                Aborda o uso de Excel, Power BI, SQL e Python, oferecendo uma visão prática sobre como desenvolver habilidades fundamentais. 
+                <br>
+                <a
+                  href="https://medium.com/@pauloemilio.sistemas/como-começar-na-análise-de-dados-ferramentas-e-técnicas-essenciais-abb3a0fd5cb4">
+                  <img src="./img/medium-comecando.jpg" alt="design icon" width="300">
+                </a>
+              </p>
+          </a>
+          </div>
+
+        </li>
+
+        <!--MEDIUM-->
+        <li class="service-item">
+          <a href="https://medium.com/@paulo-emilio/compreendendo-os-processos-etl-essenciais-para-a-análise-de-dados-e48b83fd439a" target="_blank"
+            rel="noopener noreferrer" style="text-decoration: none; color: inherit;">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/medium.png" alt="design icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Compreendendo os Processos ETL: Essenciais para a Análise de Dados</h4>
+
+              <p class="service-item-text">
+                O artigo explica o processo ETL (Extração, Transformação e Carregamento), detalhando suas etapas 
+                e importância. Inclui exemplos práticos, ferramentas úteis e boas práticas para uma implementação eficaz. 
+                <br>
+                <a
+                  href="https://medium.com/@paulo-emilio/compreendendo-os-processos-etl-essenciais-para-a-análise-de-dados-e48b83fd439a">
+                  <img src="./img/medium-etl.jpg" alt="design icon" width="300">
+                </a>
+              </p>
+          </a>
+          </div>
+
+        </li>
+
+
+
+      </ul>
+
+    </section>
+
+
+    <div class="modal-container" data-modal-container>
+
+      <div class="overlay" data-overlay></div>
+
+      <section class="testimonials-modal">
+
+        <button class="modal-close-btn" data-modal-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="modal-img-wrapper">
+          <figure class="modal-avatar-box">
+            <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+          </figure>
+
+          <img src="./assets/images/icon-quote.svg" alt="quote icon">
+        </div>
+
+        <div class="modal-content">
+
+          <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+          <time datetime="2021-06-14">14 June, 2021</time>
+
+          <div data-modal-text>
+            <p>
+              Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+              lot of experience
+              and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+              consectetur adipiscing
+              elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+
+    <!--
+          - clients
+        -->
+
+    <section class="clients">
+
+      <h3 class="h3 clients-title">Ferramentas & Linguagens</h3>
+
+
+      <ul class="clients-list has-scrollbar">
+
+        <!--COLUNA 1-->
+        <li class="clients-item">
+
+          <!-- PYTHON-->
+          <a href="https://www.python.org/" target="_blank" rel="noreferrer" style="margin-right: 0.1cm;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+              width="40" height="40" />
+            <br>
+          </a>
+
+          <!-- POWERBI-->
+          <a href="https://app.powerbi.com/home?cmpid=pbi-glob-head-snn-signin" target="_blank" rel="noreferrer">
+            <img src="assets/images/powerbi.svg" width="35" height="35" />
+            <br>
+          </a>
+
+          <!-- EXCEL-->
+          <a href="https://www.microsoft.com/pt-br/microsoft-365/excel" target="_blank" rel="noreferrer">
+            <img src="assets/images/excel.svg" width="30" height="30" />
+            <br>
+          </a>
+
+          <!-- SQL-->
+          <a href="https://aws.amazon.com/pt/what-is/sql/" target="_blank" rel="noreferrer">
+            <img src="assets/images/sql.svg" width="25" height="25" />
+            <br>
+          </a>
+
+        </li>
+
+        <!--COLUNA 3-->
+        <li class="clients-item">
+
+          <!-- JUPYTER-->
+          <a href="https://jupyter.org/" target="_blank" rel="noreferrer" style="margin-right: 0.1cm;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"
+              width="40" height="40" />
+            <br>
+          </a>
+
+          <!-- PANDAS-->
+          <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="pandas"
+              width="40" height="40" />
+            <br>
+          </a>
+
+          <!-- SKLEARN-->
+          <a href="https://scikit-learn.org/stable/" target="_blank" rel="noreferrer">
+            <img src="assets/images/scikit-learn.svg" width="25" height="25" />
+            <br>
+          </a>
+
+          <!-- KAGGLE-->
+          <a href="https://www.kaggle.com" target="_blank" rel="noreferrer">
+            <img src="assets/images/kaggle.svg" width="20" height="20" />
+            <br>
+          </a>
+
+        </li>
+
+        <!--COLUNA 3-->
+        <li class="clients-item">
+
+          <!-- MYSQL-->
+          <a href="https://www.mysql.com/" target="_blank" rel="noreferrer" style="margin-right: 0.1cm;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+              width="40" height="40" />
+            <br>
+          </a>
+
+          <!-- SQL SERVER-->
+          <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg"
+              width="45" height="45" />
+            
+          </a>
+
+          <!--ORACLE -->
+          <a href="https://www.oracle.com/" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg"
+              alt="oracle" width="40" height="40" />
+            <br>
+          </a>
+
+          <!-- POSTGRESQL-->
+          <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
+            <img
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg"
+              alt="postgresql" width="35" height="35" />
+            <br>
+          </a>
+
+        </li>
+
+
+        <!--COLUNA 4-->
+        <li class="clients-item">
+
+          <!-- VSCODE-->
+          <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="30"
+              height="30" />
+            <br>
+          </a>
+
+          <!--GIT -->
+          </a>
+          <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
+              width="40" height="40" />
+            <br>
+          </a>
+
+          <!-- GITHUB -->
+          <a href="https://github.com/paulo-emilio" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="30"
+              height="30" />
+            <br>
+          </a>
+
+          <!-- DATABRICKS-->
+          <a href="https://www.databricks.com/" target="_blank" rel="noreferrer">
+            <img src="assets/images/databricks.svg" width="35" height="35" />
+            <br>
+          </a>
+
+
+        </li>
+
+      </ul>
+    </section>
+    </article>
+
+    <!----------------------- LOGOS NAO USADAS -------------------------->
+
+    <!--<a href="https://spark.apache.org/" target="_blank" rel="noreferrer">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apachespark/apachespark-original-wordmark.svg"
+              alt="apacheairspark" width="40" height="40" />
+            <br>
+          </a>-->
+    <!--<a href="https://airflow.apache.org/" target="_blank" rel="noreferrer">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apacheairflow/apacheairflow-original.svg"
+              alt="apacheairflow" width="40" height="40" />
+            <br>-->
+    <!--<a href="https://aws.amazon.com/" target="_blank" rel="noreferrer">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+              alt="aws" width="40" height="40" />
+            <br>
+          </a>-->
+    <!--<a href="https://azure.microsoft.com/en-us/services/sql-database/" target="_blank" rel="noreferrer">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+              width="40" height="40" />
+            <br>
+          </a>-->
+    <!--<a href="https://www.snowflake.com/" target="_blank" rel="noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Snowflake_Logo.svg" width="40" height="30" />
+            <br>
+          </a>-->
+    <!--<a href="https://mariadb.org/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original-wordmark.svg"
+              width="40" height="40" />
+            <br>
+          </a>-->
+
+    <!--<a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"
+              width="40" height="40" />
+          <br>
+          </a>-->
+    <!--<a href="https://kubernetes.io/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-original.svg"
+              width="40" height="40" />
+            <br>
+          </a>-->
+    <!--<a href="https://www.linux.org/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" width="40"
+              height="40" />
+            <br>
+          </a>-->
+    <!--<a href="https://www.ssh.com/ssh/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ssh/ssh-original-wordmark.svg"
+              width="40" height="40" />
+            <br>
+          </a>-->
+
+    <!--<a href="https://visualstudio.microsoft.com/" target="_blank" rel="noreferrer" style="margin-right: 0.1cm;">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg"
+              width="40" height="40" />
+            <br>
+          </a>-->
+    <!--<a href="https://ubuntu.com/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original.svg" width="40"
+              height="40" />
+            <br>
+          </a>-->
+    <!--<a href="https://www.postman.com/" target="_blank" rel="noreferrer">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" width="40"
+              height="40" />
+            <br>
+          </a>-->
+    <!--<a href="https://www.figma.com/" target="_blank" rel="noreferrer">
+            <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40" />
+            <br>
+          </a>-->
+
+
+
+
+
+
+    <!--
+        - #CURRÍCULO
+      -->
+
+    <article class="resume" data-page="currículo"> <!--resume-->
+
+      <header>
+        <h2 class="h2 article-title">Currículo</h2>
+      </header>
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Formação</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Centro Univeristário UNA</h4>
+
+            <span>2019 — 2023</span>
+
+            <p class="timeline-text">
+              Bacharelado em Sitemas de Informação
+            </p>
+
+          </li>
+
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Uniamérica</h4>
+
+            <span>2023 — 2024</span>
+
+            <p class="timeline-text">
+              Pós graduação em Data Science
+            </p>
+
+          </li>
+
+
+      </section>
+
+
+      <!----------------EXPERIÊNCIA---------------->
+
+      <section class="timeline">
+
+        <div class="title-wrapper">
+          <div class="icon-box">
+            <ion-icon name="book-outline"></ion-icon>
+          </div>
+
+          <h3 class="h3">Experiencia</h3>
+        </div>
+
+        <ol class="timeline-list">
+
+          <!--PROFISSIONAL DE INFORMATICA-->
+          <li class="timeline-item">
+
+            <h4 class="h4 timeline-item-title">Profissional de Informática</h4>
+
+            <span>Autônomo | Remoto</span>
+            <span>mai 2023 — o momento</span>
+
+            <p class="timeline-text">
+
+              <body>
+                <p>● Criação e edição de planilhas personalizadas e automação de processos para gerenciamento de
+                  informações e análise de dados.</p>
+                <p>● Instalação, configuração e manutenção de software para clientes individuais e empresas.</p>
+                <p>● Diagnóstico e reparo de problemas de hardware e software.</p>
+                <p>● Formatação e reinstalação de sistemas operacionais.</p>
+                <p>● Suporte técnico remoto e presencial resolvendo problemas de forma eficiente.</p>
+                <br>
+
+            </p>
+
+          </li>
+
+
+          <!--PREFEITURA-->
+
+
+
+          <!--ANALISTA-->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Analista de TI</h4>
+
+            <span>Prefeitura Municipal | Abaeté, MG </span>
+            <span>mar 2022 — mai 2023</span>
+
+            <p class="timeline-text">
+
+              <body>
+                <p>Ocupando o cargo de "Auxiliar de Administração" por concurso na prefeitura, continuei minha atuação
+                  na área de informática,
+                  assumindo mais responsabilidades e autonomia.</p>
+                <p>● Liderança na criação e implementação bem-sucedidas de um site para gerenciamento de chamados,
+                  promovendo uma comunicação eficiente entre a área de informática e as demais áreas da organização.</p>
+                <p>● Introdução de soluções tecnológicas avançadas, com foco na modernização dos softwares e hardwares
+                  utilizados pela prefeitura.</p>
+                <p>● Trabalho colaborativo com diferentes departamentos para personalizar soluções tecnológicas,
+                  atendendo às necessidades específicas de cada setor.</p>
+                <br>
+
+            </p>
+          </li>
+
+          <!--ESTÁGIO-->
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Estagiário de TI</h4>
+            <span>Prefeitura Municipal | Abaeté, MG </span>
+            <span>mai 2021 — fev 2022</span>
+
+
+            <p class="timeline-text">
+
+              <body>
+                <p>● Manutenção e resolução de problemas em sistemas.</p>
+                <p>● Garantia da eficiência e integridade dos processos.</p>
+                <p>● Atualizações de software e implementação de medidas de segurança.</p>
+                <p>● Suporte técnico ativo aos usuários.</p>
+                <br>
+
+            </p>
+
+          </li>
+
+
+
+          <!--DF SEGUROS-->
+
+
+
+          <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Agente de Seguros</h4>
+            <span>DF Seguros | Remoto </span>
+            <span>jan 2019 — mar 2020</span>
+
+            <p class="timeline-text">
+
+              <body>
+                <p>● Expansão da DF Seguros de Brasília em minha cidade Abaeté.</p>
+                <p>● Papel fundamental na promoção e venda de seguros.</p>
+                <p>● Responsável por prospectar novos clientes, realizar cotações personalizadas e finalizar contratos
+                  de seguros.</p>
+                <br>
+
+            </p>
+
+          </li>
+
+
+        </ol>
+
+      </section>
+
+
+      <!-------------SKILLS----------->
+      <section class="skill">
+
+        <h3 class="h3 skills-title">Minhas skills</h3>
+
+        <ul class="skills-list content-card">
+
+          <!--Análise e Interpretação de Dados-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Análise e Interpretação de Dados</h5>
+              <data value="85">85%</data>
+            </div>
+
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+
+          </li>
+
+          <!--Data Cleaning e Pré-processamento-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Data Cleaning e Pré-processamento</h5>
+              <data value="75">75%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+
+          </li>
+
+          <!--Modelagem de Dados-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Modelagem de Dados</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+
+          <!--Data Storytelling-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Data Storytelling</h5>
+              <data value="80">80%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+
+          </li>
+
+          <!--BI-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Business Intelligence</h5>
+              <data value="70">70%</data>
+            </div>
+
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+
+          <!--Estatística-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Estatística</h5>
+              <data value="65">65%</data>
+            </div>
+
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 65%;"></div>
+            </div>
+
+          </li>
+
+          <!--Machine Learning-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Machine Learning</h5>
+              <data value="70">70%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 70%;"></div>
+            </div>
+
+          </li>
+
+          <!--Python-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Python</h5>
+              <data value="85">85%</data>
+            </div>
+
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 85%;"></div>
+            </div>
+
+          </li>
+
+          <!--SQL-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">SQL</h5>
+              <data value="80">80%</data>
+            </div>
+
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+
+          </li>
+
+          <!--Power BI-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Power BI</h5>
+              <data value="80">80%</data>
+            </div>
+
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+
+          </li>
+
+          <!--Excel-->
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Excel</h5>
+              <data value="75">75%</data>
+            </div>
+
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 75%;"></div>
+            </div>
+
+          </li>
+
+
+
+        </ul>
+
+      </section>
+
+    </article>
+
+
+
+
+
+    <!--
+        - #PORTFOLIO
+      -->
+
+    <article class="portfolio" data-page="portf">
+
+      <header>
+        <h2 class="h2 article-title">portf</h2>
+      </header>
+
+      <section class="projects">
+
+        <ul class="filter-list">
+
+          <li class="filter-item">
+            <button class="active" data-filter-btn>All</button>
+          </li>
+
+          <li class="filter-item">
+            <button data-filter-btn>Web design</button>
+          </li>
+
+          <li class="filter-item">
+            <button data-filter-btn>Applications</button>
+          </li>
+
+          <li class="filter-item">
+            <button data-filter-btn>Web development</button>
+          </li>
+
+        </ul>
+
+        <div class="filter-select-box">
+
+          <button class="filter-select" data-select>
+
+            <div class="select-value" data-selecct-value>Select category</div>
+
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+
+          </button>
+
+          <ul class="select-list">
+
+            <li class="select-item">
+              <button data-select-item>All</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Web design</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Applications</button>
+            </li>
+
+            <li class="select-item">
+              <button data-select-item>Web development</button>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="project-list">
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./img/cnes-datasus.jpg" alt="datasus" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Datasus</h3>
+
+              <p class="project-category">Engenharia de dados</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Orizon</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web design">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Fundo</h3>
+
+              <p class="project-category">Web design</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="applications">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Brawlhalla</h3>
+
+              <p class="project-category">Applications</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web design">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+              </figure>
+
+              <h3 class="project-title">DSM.</h3>
+
+              <p class="project-category">Web design</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web design">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">MetaSpark</h3>
+
+              <p class="project-category">Web design</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Summary</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="applications">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Task Manager</h3>
+
+              <p class="project-category">Applications</p>
+
+            </a>
+          </li>
+
+          <li class="project-item  active" data-filter-item data-category="web development">
+            <a href="#">
+
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+              </figure>
+
+              <h3 class="project-title">Arrival</h3>
+
+              <p class="project-category">Web development</p>
+
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+
+
+
+
+    <!--
+        - #BLOG
+      -->
+
+    <article class="blog" data-page="blog">
+
+      <header>
+        <h2 class="h2 article-title">Blog</h2>
+      </header>
+
+      <section class="blog-posts">
+
+        <ul class="blog-posts-list">
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Spark</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Fab 23, 2022</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Você sabe o que Spark?</h3>
+
+                <p class="blog-text">
+                  O Spark é um framework que foi desenvolvido pela AMPlab e posteriormente repassado à Apache Software
+                  Foundation.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Design</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Fab 23, 2022</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                <p class="blog-text">
+                  Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Design</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Fab 23, 2022</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                <p class="blog-text">
+                  Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Design</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Fab 23, 2022</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                <p class="blog-text">
+                  Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Design</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Fab 23, 2022</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                <p class="blog-text">
+                  Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+          <li class="blog-post-item">
+            <a href="#">
+
+              <figure class="blog-banner-box">
+                <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+              </figure>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Design</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2022-02-23">Fab 23, 2022</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                <p class="blog-text">
+                  Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                </p>
+
+              </div>
+
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+
+
+
+
+    <!--       
+        - #CONTACT
+      -->
+
+    <article class="contact" data-page="contact">
+
+      <header>
+        <h2 class="h2 article-title">Contact</h2>
+      </header>
+
+      <section class="mapbox" data-mapbox>
+        <figure>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192581.03785971602!2d-44.20004097578034!3d-19.899360351761253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa694c47adf61e9%3A0x5132472e55aea70c!2sContagem%20-%20Parque%20Industrial%2C%20Contagem%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1717494721868!5m2!1spt-BR!2sbr"
+            width="400" height="300" loading="lazy"></iframe>
+        </figure>
+      </section>
+
+      <section class="contact-form">
+
+        <h3 class="h3 form-title">Contact Form</h3>
+
+        <form action="#" class="form" data-form>
+
+          <div class="input-wrapper">
+            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+            <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          </div>
+
+          <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+          <button class="form-btn" type="submit" disabled data-form-btn>
+            <ion-icon name="paper-plane"></ion-icon>
+            <span>Send Message</span>
+          </button>
+
+        </form>
+
+      </section>
+
+    </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
