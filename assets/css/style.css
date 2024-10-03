@@ -1,0 +1,77 @@
+/* General styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Navbar styling */
+.navbar {
+  margin-bottom: 20px;
+}
+
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-link {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar-link.active {
+  background-color: #555;
+}
+
+/* Project list */
+.project-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-item {
+  flex: 1;
+  max-width: 300px;
+}
+
+.project-item img {
+  max-width: 100%;
+}
